@@ -1,16 +1,26 @@
 {
   "name": "mark-rothko-theme",
   "version": "1.0.0",
-  "description": "Mark Rothko theme",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "publisher": "NizarHmain",
+  "displayName": "Mark Rothko",
+  "description": "A Mark Rothko inspired theme for Visual Studio Code",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nizarhmain/mark-rothko-vscode-theme"
   },
-  "author": "Nizar Hmain",
-  "license": "ISC",
-  "publisher": "Nizar Hmain",
   "engines": {
-    "vscode": "^1.78.0"
+    "vscode": "^1.0.0"
   },
-  "activationEvents": []
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mark Rothko",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
 }
