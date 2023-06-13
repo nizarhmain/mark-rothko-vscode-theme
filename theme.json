@@ -1335,6 +1335,18 @@
       }
     },
     {
+      "scope": "variable.other.object",
+      "settings": {
+        "foreground": "#b2cab8"
+      }
+    },
+    {
+      "scope": "variable.other.object.property",
+      "settings": {
+        "foreground": "#d3d9d4"
+      }
+    },
+    {
       "name": "js Flowtype",
       "scope": ["support.type.type.flowtype"],
       "settings": {
